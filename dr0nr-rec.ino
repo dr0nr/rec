@@ -1,12 +1,10 @@
 
 #include <MotorController.h>
 
-
-
-MotorController mc();
+MotorController mc;
 
 void setup() {
-	//mc.check();
+	mc.startup();
 }
 
 void loop() {
